@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Üye Bilgileri</title>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo" width="200" height="200">
+    </header>
+    <main>
+        <h1>Üye Bilgileri</h1>
+        <p>Adı Soyadı: John Doe</p>
+        <p>Lisans Numarası: 12345</p>
+        <p>Kayıt Tarihi: 01.08.2023</p>
+        <button onclick="odemeBilgilerineGit()">Ödeme Bilgileri</button>
+        <button onclick="anasayfayaDon()">Ana Sayfaya Dön</button>
+    </main>
+    <script>
+        function odemeBilgilerineGit() {
+            window.location.href = "odeme_bilgileri.html";
+        }
+
+        function anasayfayaDon() {
+            window.location.href = "index.html";
+        }
+    </script>
+</body>
+</html>
